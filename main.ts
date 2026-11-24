@@ -3,7 +3,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 // One line of an out-of-office auto-reply: the funniest I can make it.
 // Single sentence, one concrete image: an inbox left alone too long.
 const LINE =
-  "I am out of office until Monday, and my unsupervised inbox is already planning a coup.";
+  "Out of office until Monday, but I left my laptop on, so technically I'm still ignoring you.";
 
 // Runtime guard: the sealed scorer only accepts 1-140 UTF-8 characters,
 // a single line, and nothing but whitespace-free text. Fail loudly here
